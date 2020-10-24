@@ -11,10 +11,10 @@ body {
 
 .container {
     margin-top: 20px;
-    margin-left: 30px;    
+    margin-left: 30px;
     padding-bottom: 25px;
     background: #d9d9d9;
-    float: left;    
+    float: left;       
 }
 
 h1 {
@@ -31,10 +31,6 @@ img {
     overflow: auto;
 }
 
-p {
-       
-}
-
 .form-group {
     margin-left: 20px;
 }
@@ -49,6 +45,7 @@ p {
     background: #545953;
     background-color: #545953;
     border-color: #545953;
+    color: #fff;
     border-radius: 0;
     padding: 10px;  
 }
