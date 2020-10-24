@@ -14,7 +14,7 @@ body {
     margin-left: 30px;
     padding-bottom: 25px;
     background: #d9d9d9;
-    float: left;         
+    /* float: left; */
 }
 
 h1 {
@@ -26,8 +26,8 @@ img {
     float: left;
     margin-right: 20px;
     margin-bottom: 10px;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     overflow: auto;
 }
 
@@ -52,9 +52,10 @@ img {
 
 .img-fluid {
     align-content: center;
-    width: 50%;
-    height: auto;
-    padding: 10px;
+    width: 350px;
+    height: 350px;
+    /* padding: 10px; */
+    margin-bottom: 20px;
 }
 
 footer {
@@ -63,12 +64,14 @@ footer {
     bottom: 0;
     width: 100%;
     background: #343a40;
-    padding: 10px; 
-    border-top: #545953;   
+    padding: 2px; 
+    border-top: 2px #545953;   
 }
 
 h3 {
     color: #d9d9d9;
+    padding: 2px;
     text-align: center;
     font-weight: lighter;
+    font-size: 12px;
 }
