@@ -49,3 +49,19 @@ img {
     border-radius: 0;
     padding: 10px;  
 }
+
+footer {
+    clear: left;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #343a40;
+    padding: 10px; 
+    border-top: #545953;   
+}
+
+h3 {
+    color: #d9d9d9;
+    text-align: center;
+    font-weight: lighter;
+}
