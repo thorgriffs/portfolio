@@ -32,3 +32,21 @@ img {
 p {
     margin-top: 20px;
 }
+
+.form-group {
+    margin-left: 20px;
+}
+
+.form-control {
+    width: 80%;
+    border-radius: 0;
+    border-color: #545953;
+}
+
+.btn {
+    background: #545953;
+    background-color: #545953;
+    border-color: #545953;
+    border-radius: 0;
+    padding: 10px;  
+}
