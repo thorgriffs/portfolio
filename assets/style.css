@@ -52,8 +52,8 @@ img {
 
 .img-fluid {
     align-content: center;
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     /* padding: 10px; */
     margin-bottom: 20px;
 }
