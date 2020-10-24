@@ -41,9 +41,11 @@ Using the Bootstrap CSS Framework for this project was both fun and frustrating.
 
 The following image shows the portfolio appearance and functionality:
 
-* ![Portfolio About](./assets/index-demo.png)
-* ![Portfolio Contact](./assets/contact-demo.png)
-* ![Portfolio Page](./assets/portfolio-demo.png)
+![Portfolio About](./assets/index-demo.png)
+
+![Portfolio Contact](./assets/contact-demo.png)
+
+![Portfolio Page](./assets/portfolio-demo.png)
 
 
 ## Application URL
