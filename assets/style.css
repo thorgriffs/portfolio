@@ -1,8 +1,6 @@
 /* styling for the navbar brand link */
 
 .navbar {
-    /* margin-left: 20px;
-    padding: 10px; */ 
     background: #000000;
     font-family: 'Patua One', cursive;
     font-weight: 500;
@@ -31,18 +29,9 @@ body {
     background: #ffffff;
 }
 
-/* .container {
-    margin-top: 20px;
-    margin-left: 30px;
-    padding-bottom: 25px;
-    background: #d9d9d9;
-} */
-
 h3 {
     color: #000000;
     font-family: 'Maven Pro', sans-serif;
-    /* font-weight: 500;
-    font-size: 60px; */
 } 
 
 p {
@@ -60,7 +49,7 @@ p {
 
 /* About Me image */
 
-img {
+.profile-img {
     padding: 2px;
     border: 3px solid #00D7FF;
     background-color: #000000;
@@ -68,6 +57,17 @@ img {
 
 .active {
     color: #FF00FF;
+}
+
+.card-img-top {
+    width: 338px;
+    height: 220px;
+    border: solid #000000;
+    margin: 1px;
+}
+
+.card {
+    border:solid #00D7FF;
 }
 
 /* .navbar-toggler{
