@@ -1,4 +1,4 @@
-/* styling for the navbar brand link */
+/* Navbar */
 
 .navbar {
     background: #000000;
@@ -22,6 +22,15 @@
     color: #FF00FF;
 }
 
+.active {
+    color: #FF00FF;
+}
+
+.navbar-toggler{
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #ffffff;
+}  
 
 /* Main content for each page */
 
@@ -55,10 +64,8 @@ p {
     background-color: #000000;
 } 
 
-.active {
-    color: #FF00FF;
-}
 
+/* Portfolio cards */
 .card-img-top {
     width: 338px;
     height: 220px;
@@ -69,9 +76,3 @@ p {
 .card {
     border:solid #00D7FF;
 }
-
-.navbar-toggler{
-    color: #ffffff;
-    background: transparent;
-    border: 1px solid #ffffff;
-} 

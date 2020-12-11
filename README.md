@@ -16,6 +16,8 @@ This is an assignment to create a mobile responsive portfolio using the Bootstra
 * Added portfolio project images to `./assets` folder
 * Added alt attributes to the HTML img elements
 * Added links to GitHub, LinkedIn, Email, and Project/Assignment urls
+* Linked all pages to Google Fonts (Maven Pro and Patua One)
+* Linked to Font Awesome for icons on `contact.html`
 * Created a README.md file to describe and demo the code
 * Deployed the application to a live URL
 
@@ -32,7 +34,7 @@ Using the Bootstrap CSS Framework for this project was both fun and frustrating.
 * The responsiveness of the page is still a bit off (Images on Portfolio).  I'm hoping more practice will help me understand how to refine this functionality. 
 * The links on the Contact page need some additional styling.  I would like to make the icons clickable, but ran out of time after realizing that simply putting the Font Awesome icons inside the anchor elements did not render well.  
 
-## Screenshot
+## Screenshots
 
 The following image shows the portfolio appearance and functionality:
 
