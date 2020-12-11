@@ -70,62 +70,8 @@ p {
     border:solid #00D7FF;
 }
 
-/* .navbar-toggler{
+.navbar-toggler{
     color: #ffffff;
     background: transparent;
     border: 1px solid #ffffff;
-} */
-
-/* button.navbar-toggler {
-    color: #ffffff;
-    background: transparent;
-}  */
-/* Contact form */
-
-/* .form-group {
-    margin-left: 20px;
-}
-
-.form-control {
-    width: 80%;
-    border-radius: 0;
-    border-color: #545953;
-}
-
-.btn {
-    background: #545953;
-    background-color: #545953;
-    border-color: #545953;
-    color: #fff;
-    border-radius: 0;
-    padding: 10px;  
-} */
-
-/* Portfolio images */
-
-/* .img-fluid {
-    align-content: center;
-    width: 250px;
-    height: 250px;
-    margin-bottom: 20px;
-}
-
-/* Footer */
-
-/* footer {
-    clear: left;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background: #343a40;
-    padding: 5px; 
-    border-top: 2px #545953;   
-}
-
-h3 {
-    color: #d9d9d9;
-    padding: 2px;
-    text-align: center;
-    font-weight: lighter;
-    font-size: 12px;
-} */
+} 
