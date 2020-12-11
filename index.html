@@ -24,6 +24,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" 
     crossorigin="anonymous"></script> 
+
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Patua+One&display=swap" rel="stylesheet">
     
 </head>
 
@@ -32,8 +40,8 @@
 
   <!-- Navbar -->  
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html">Kelli King</a>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar navbar-brand" href="index.html">Kelli King</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" 
       data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
       aria-expanded="false" aria-label="Toggle navigation">
@@ -47,8 +55,8 @@
           <li class="nav-item">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
           </li>        
         </ul>
       </div>      
@@ -56,41 +64,27 @@
   </header>
 
   <!-- About Me Content -->
-  <div class="container">
-    <div class="row">
+  <div class="container mt-3">
+    <!-- <div class="row">
       <div class="col">
-        <h1>About Me</h1>
-        <hr>
+        <h1 class="ml-2">About</h1>        
       </div>
-    </div> 
+    </div>  -->
     <div class="row">
       <div class="col">
-        <img src="assets/profile.png" alt="Kelli" class="img-thumbnail">
-        <p>Hi! I'm Kelli.<br>
-          I'm a mom of two boys, one dog, and one cat, currently living near Columbus, Ohio.
-        </p>
+        <img src="assets/profile.png" alt="profile picture" class="img rounded-circle height: 100% float-md-left mr-4 mt-4">
+        <h3 class="ml-4">Hi! I'm Kelli.</h3>
+        <p>I'm an aspiring full stack web developer currently enrolled in The Ohio State University Coding Boot Camp in Columbus, Ohio.</p>
         <p>I've spent the majority of my career working in IT for businesses in the Financial Services, Smart Grid Energy, 
           and Insurance sectors. I started as a software tester, but have since worked as a Business Analyst, QA/BA Manager, 
           Iteration Manager, and a Release Manager. I prefer to be a team player that does whatever needs to be done when it 
           needs to be done, regardless of my role.
         </p>
-        <p>Always wanting to stay curious, I enrolled in the OSU Coding Boot Camp. It's both fun and humbling to be a beginner again!
-        </p>      
+        <p>Seeking a new challenge, I enrolled in the Coding Boot Camp to update my skillset.
+          It's both fun and humbling to be a beginner again.</p>   
       </div>      
     </div>
   </div>
-
-  <!-- Footer -->
-  <footer>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <h3>Copyright</h3>
-        </div>
-      </div>
-    </div>
-  </footer>
-
 </body>
 </html>
 

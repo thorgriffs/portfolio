@@ -1,43 +1,88 @@
 /* styling for the navbar brand link */
 
-.navbar-brand {
-    margin-left: 20px;
-    padding: 10px;
-    background: #545953;
+.navbar {
+    /* margin-left: 20px;
+    padding: 10px; */ 
+    background: #000000;
+    font-family: 'Patua One', cursive;
+    font-weight: 500;
+    font-size: 40px;
+    color: #ffffff;
 }
+ a {
+    font-family: 'Patua One', cursive;
+    font-weight: 500;
+    font-size: 30px;
+    color: #ffffff;
+ }
+
+.navbar-brand:hover {
+    color: #00D7FF;
+}
+
+.nav-link:hover {
+    color: #FF00FF;
+}
+
 
 /* Main content for each page */
 
 body {
-    background: #a8b6bf;
+    background: #ffffff;
 }
 
-.container {
+/* .container {
     margin-top: 20px;
     margin-left: 30px;
     padding-bottom: 25px;
     background: #d9d9d9;
+} */
+
+h3 {
+    color: #000000;
+    font-family: 'Maven Pro', sans-serif;
+    /* font-weight: 500;
+    font-size: 60px; */
+} 
+
+p {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+    margin: 20px;
+    line-height: 1.5;
 }
 
-h1 {
-    margin-left: 20px;
-    margin-top: 20px;
+.container-fluid {
+    background: #FFFFFF;
 }
 
 /* About Me image */
 
 img {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    width: 150px;
-    height: 150px;
-    overflow: auto;
+    padding: 2px;
+    border: 3px solid #00D7FF;
+    background-color: #000000;
+} 
+
+.active {
+    color: #FF00FF;
 }
 
+/* .navbar-toggler{
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #ffffff;
+} */
+
+/* button.navbar-toggler {
+    color: #ffffff;
+    background: transparent;
+}  */
 /* Contact form */
 
-.form-group {
+/* .form-group {
     margin-left: 20px;
 }
 
@@ -54,11 +99,11 @@ img {
     color: #fff;
     border-radius: 0;
     padding: 10px;  
-}
+} */
 
 /* Portfolio images */
 
-.img-fluid {
+/* .img-fluid {
     align-content: center;
     width: 250px;
     height: 250px;
@@ -67,7 +112,7 @@ img {
 
 /* Footer */
 
-footer {
+/* footer {
     clear: left;
     position: fixed;
     bottom: 0;
@@ -83,4 +128,4 @@ h3 {
     text-align: center;
     font-weight: lighter;
     font-size: 12px;
-}
+} */
