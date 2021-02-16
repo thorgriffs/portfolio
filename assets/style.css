@@ -74,5 +74,18 @@ p {
 }
 
 .card {
-    border:solid #00D7FF;
+    border:solid #000000;
 }
+
+.contact:hover {
+    color: #00D7FF;
+    opacity: 1;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+ .card-img-top:hover {
+     opacity: .7;
+ }
